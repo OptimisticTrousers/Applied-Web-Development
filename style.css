@@ -12,7 +12,7 @@ body{
 }
 
 #showcase{
-  background-image:url('https://images.unsplash.com/photo-1499946731602-f81b5f4eebc6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=84323cc42c73a714c795eb1f8b8c1f30&auto=format&fit=crop&w=900&q=80');
+  background-image:url('https://scontent-lga3-2.xx.fbcdn.net/v/t31.0-8/10499517_266812100189829_7237183939338581761_o.png?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=xny1h09zX3gAX_-vTf7&_nc_ht=scontent-lga3-2.xx&oh=cd1739a8abe7fba3d604762e0fb255ba&oe=60046BB9');
   background-size:cover;
   background-position:center;
   height:100vh;
@@ -51,6 +51,9 @@ body{
 }
 
 #section-a{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   padding:20px;
   background:#926239;
   color:#fff;
@@ -58,6 +61,9 @@ body{
 }
 
 #section-b{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   padding:20px;
   background:#f4f4f4;
   text-align:center;
@@ -65,17 +71,29 @@ body{
 
 #section-c{
   display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 #section-c div{
+
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   padding:20px;
 }
 
 #section-c .box-1, #section-c .box-3{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   background:#926239;
   color:#fff;
 }
 
 #section-c .box-2{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   background:#f9f9f9;
 }
