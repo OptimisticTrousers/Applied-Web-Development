@@ -10,7 +10,7 @@ have about 40 members using their virtual platform and have a goal in 2021 to ha
 addition, their audio/video component for virtual classes is always a challenge and they welcome any and all
 projects to improve that as well.
 
-<p>Main.css and html is the newly improved code for the website's landing page. The login is for the login page of the website used to register in the clients.mindbodyonline.com subdomain. The class schedule is the new and improved class schedule format located in the  clients.mindbodyonline.com subdomain also. A/B Testing will also be added, but only to the original Clarity Fitness website, not this new modified version.</p>
+<strong>Main.css and html is the newly improved code for the website's landing page. The login is for the login page of the website used to register in the clients.mindbodyonline.com subdomain. The class schedule is the new and improved class schedule format located in the  clients.mindbodyonline.com subdomain also. A/B Testing will also be added, but only to the original Clarity Fitness website, not this new modified version.</strong>
 </head>
 <body>
 
