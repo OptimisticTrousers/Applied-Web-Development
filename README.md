@@ -2,7 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-Clarity Fitness
+Clarity Fitness is a local fitness studio that has taken much of its business virtual since March, including live
+and on demand classes, as well as virtual private training. Its website is managed through Wordpress and is
+fairly simple to maintain. They are looking for help with their virtual landing page to add media that is appealing
+to the consumer. The project will consist of A/B testing to find the best experience with users. They currently
+have about 40 members using their virtual platform and have a goal in 2021 to have 100 people using it. In
+addition, their audio/video component for virtual classes is always a challenge and they welcome any and all
+projects to improve that as well.
 </head>
 <body>
 
