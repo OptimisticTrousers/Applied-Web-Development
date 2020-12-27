@@ -1,0 +1,145 @@
+body {
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  color: rgb(0, 102, 102)
+}
+
+.day {
+  font-size: 25px;
+  margin: 20px 0;
+  text-align: center;
+  }
+
+.logo {
+
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 20px 0;
+  text-align: center;
+  color:white
+}
+
+  li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .table-header {
+    background-color: rgb(0, 102, 102);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: white;
+    position: sticky;
+    font-weight: bold;
+  }
+  .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+  .col-1 {
+    flex-basis: 25%;
+  }
+  .col-2 {
+    flex-basis: 40%;
+  }
+  .col-3 {
+    flex-basis: 25%;
+  }
+  .col-4 {
+    flex-basis: 25%;
+  }
+
+/*button design*/
+.frame button {
+	position: absolute;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	color: white;
+	background-color: rgb(0, 102, 102);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+  .button button{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+	svg {
+		height: 55px;
+		width: 150px;
+		fill: none;
+		stroke-width: 5;
+  }
+
+		.o1 {
+			stroke: rgba(#25b7c4, 0.7);
+			fill: rgb(0, 102, 102);
+			transition: all 1s ease-in-out;
+		}
+
+		.o2 {
+			stroke: white;
+			stroke-dasharray: 20 420;
+			stroke-dashoffset: 20;
+			transition: all 1s ease-in-out;
+		}
+
+	button:hover
+		.o1 {
+			fill: rgba(#CC8110, 0.3);
+	}
+
+		.o2 {
+			stroke-dashoffset: -420;
+	}
+
+	button {
+	  display: block;
+	}
+
+
+  /*columns*/
+  (max-width: 767px) {
+    .table-header {
+      display: none;
+    }
+    li {
+      display: block;
+    }
+    .col {
+
+      flex-basis: 100%;
+
+    }
+    .col {
+      display: flex;
+      padding: 10px 0;
+        color: rgb(0, 204, 102);
+        padding-right: 20px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+      }
