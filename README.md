@@ -19,5 +19,7 @@ projects to improve that as well.
 
 <p>To give the website a more appealing look, I redesigned the class schedule and login form for existing users. Visualization is very important when it comes to convincing people to navigate what's going on in the fitness so I made the color scheme and style similar to the homepage. I designed the menu (the one after clicking the "Register Now" button) with a simple modern look that makes the website more organized and attractive. - Melanie </p>
 
+<p>I began to implement a dedicated about us section for the site in order to help free up more space on the main landing page. I also gave it a similar color shceme to the one seen on the homepage. - Alessandro</p>
+
 </body>
 </html>
